@@ -18,9 +18,6 @@
   "lint-staged": {
     "linters": {
       "*.js": [
-        "prettier --write",
-        "eslint --fix",
-        "npm test",
         "git add"
       ]
     },
